@@ -12,6 +12,8 @@ Template to solve [Advent of code](https://adventofcode.com/2024) easily with ty
 $ deno -v
 ```
 
+3. Install Deno plugin on your IDE
+
 You're set !
 
 # For each day
