@@ -1,7 +1,7 @@
-export const readFile = (): string => {
+export const readInput = (path: string | undefined): string => {
   const inputFilename = Deno.args.some((arg) => ["-t", "--test"].includes(arg))
     ? "inputTest.txt"
     : "input.txt";
 
-  return Deno.readTextFileSync(`${import.meta.dirname}/${inputFilename}`);
+  return Deno.readTextFileSync(`${path}/${inputFilename}`);
 };

@@ -1,5 +1,5 @@
 import { solveWithLogs } from "../utils/logs.ts";
-import { readFile } from "../utils/readFile.ts";
+import { readInput } from "../utils/readInput.ts";
 import { Solver } from "../utils/types.ts";
 
 // --------------
@@ -9,7 +9,7 @@ import { Solver } from "../utils/types.ts";
 type InputLine = string;
 
 // Read file
-const inputLines: InputLine[] = readFile().split("\n");
+const inputLines: InputLine[] = readInput(import.meta.dirname).split("\n");
 
 // -------------------
 // Your functions here

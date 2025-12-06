@@ -1,2 +1,2 @@
 #!/bin/bash
-deno run --allow-read $1/solution.ts $2
+deno run --allow-read $1/solution.ts -d $1 $2
